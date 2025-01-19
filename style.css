@@ -29,7 +29,7 @@
     margin-left:7.5rem;
     margin-right: 5.4rem;
 }
-.nav-items{
+.nav-items li{
     margin-right: 34px;
     list-style: none;
 }
@@ -56,8 +56,8 @@
 }
 .images-titel{
     background-image:url(images/Circle\ design.svg);
-    height:475px;
-    width: 475px;
+    max-height:475px;
+    max-width: 475px;
 }
 
 .titel-container{
@@ -74,9 +74,13 @@
 .Influencer-nav , .nav-items{
         flex-direction: column; 
     }
+                          /* nav-bar */
     .nav-items{
-       display: flex;
-     }
+        display: none;
+        text-align: center;
+        align-items: center;
+        margin: o auto;
+    }
      .titel-container{
         flex-direction: column;
      }
@@ -86,8 +90,14 @@
 
      }
      .images-titel{
-        width: 16rem;
-        height: 16rem;
+        max-width: 275px;
+        max-height: 275px;
+        margin-top: 20px;
+        background-position: cover;
+
      }
-                            
+          .images-titel img{
+            height: 100%;
+            width: 100%;
+          }                
     }
