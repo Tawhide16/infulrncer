@@ -74,13 +74,15 @@
 .Influencer-nav , .nav-items{
         flex-direction: column; 
     }
-                          /* nav-bar */
+                             /* nav-bar */
     .nav-items{
         display: none;
-        text-align: center;
-        align-items: center;
-        margin: o auto;
     }
+    .nav-titel{
+        font-size: 1rem;
+        font-weight: 700; 
+    }
+                            /* titel-container-img     */
      .titel-container{
         flex-direction: column;
      }
@@ -90,14 +92,38 @@
 
      }
      .images-titel{
-        max-width: 275px;
-        max-height: 275px;
+        max-width: 17.2rem;
+        max-height: 17.2rem;
         margin-top: 20px;
         background-position: cover;
 
      }
           .images-titel img{
             height: 100%;
-            width: 100%;
-          }                
+            width: 90%;
+        
+   }  
+      .images-titel {
+            order: -1; 
+            margin-bottom:1rem;
+            width: 11.6rem;
+            height: 10.9rem;
+            background-image: url("images/Circle\ design.svg");
+            width: 17.2rem;
+            height: 17.2rem;
+            background-size: 17.2rem;
+            margin-left:4.5rem;
+            margin-right:4.5rem;
+  }
+  .titel{
+    font-size: 1.7rem;
+    font-weight: 700;
+  }
+                           
     }
+   
+  
+  
+   
+
+  
