@@ -35,4 +35,39 @@
 }
 .nav-items{
     margin-right: 34px;
+    list-style: none;
+}
+                 /* titel-containr */
+
+.titel{
+    font-size:3.2rem;
+    font-weight: 700;
+}
+.titel-description{
+    font-weight: 600;
+    font-size:1rem;
+}
+.titel-btn{
+    border-radius: 50px;
+    background-color: #E02C6D;
+    color:white;
+    border: none;
+    margin-top: 26.1px;
+    align-items:center;
+    justify-content: center;
+    padding: 10px 24px;
+}
+.images-titel{
+    background-image:url(images/Circle\ design.svg);
+    height: 475px;
+    width: 475px;
+}
+.titel-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 50px;
+    
 }
