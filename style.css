@@ -9,11 +9,7 @@
     font-weight: 100;
     font-style: normal;
   }
-  @media screen and (max-width:576px){
-    .Influencer-nav , .nav-items{
-    flex-direction: column; 
-    }
-  }
+
 
      /* nave-bar-section */
 
@@ -30,8 +26,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 120px;
-    margin-right: 86px;
+    margin-left:7.5rem;
+    margin-right: 5.4rem;
 }
 .nav-items{
     margin-right: 34px;
@@ -48,26 +44,46 @@
     font-size:1rem;
 }
 .titel-btn{
-    border-radius: 50px;
+    display: flex;
+    border-radius: 3.13rem;
     background-color: #E02C6D;
     color:white;
     border: none;
-    margin-top: 26.1px;
+    margin-top: 1.63rem;
     align-items:center;
-    justify-content: center;
-    padding: 10px 24px;
+    justify-items: center;
+    padding: 0.67rem 1.5rem;
 }
 .images-titel{
     background-image:url(images/Circle\ design.svg);
-    height: 475px;
+    height:475px;
     width: 475px;
 }
+
 .titel-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 120px;
-    margin-right: 120px;
-    margin-top: 50px;
-    
+    margin: auto;
+   margin-left: 7.5rem;
+   margin-right: 7.5rem;
+    margin-top: 3.15rem;
 }
+                              /* responsive */
+ @media screen and (max-width:576px){
+.Influencer-nav , .nav-items{
+        flex-direction: column; 
+    }
+    .nav-items{
+       display: flex;
+     }
+     .titel-container{
+        flex-direction: column;
+     }
+     .images-titel{
+        margin-left: 3.2rem;
+        margin-right: 3.2rem;
+
+     }
+                            
+    }
